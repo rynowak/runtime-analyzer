@@ -1,0 +1,14 @@
+﻿M:Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)|!:TService|KeepType
+M:Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)|!:TImplementation|KeepType
+M:Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Type)
+M:Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Type,System.Type)
+
+M:Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)|!:TService|KeepType
+M:Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)|!:TImplementation|KeepType
+M:Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Type)
+M:Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Type,System.Type)
+
+M:Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddTransient``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)|!:TService|KeepType
+M:Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddTransient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)|!:TImplementation|KeepType
+M:Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddTransient(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Type)
+M:Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddTransient(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Type,System.Type)
