@@ -32,7 +32,7 @@ namespace Microsoft.NET.Runtime.Analyzers
             isEnabledByDefault: true);
 
         public static DiagnosticDescriptor MemberIsNotLinkerFriendlyMarkAsUnfriendly = new DiagnosticDescriptor(
-            "LINKER002",
+            "LINKER003",
             "API is not linker-friendly",
             "This member is not linker-friendly because the type parameter {1} is passed to a linker-unfriendly API {0}. Add [LinkerUnfriendly] to the declaration.",
             "Design",
@@ -136,7 +136,7 @@ namespace Microsoft.NET.Runtime.Analyzers
 
                 var properties = new[]
                 {
-                    new KeyValuePair<string, string>("type", type.ToDisplayString(SymbolDisplayFormat.MinimallyQualifiedFormat)),
+                    new KeyValuePair<string, string>("type", type.ToDisplayString(SymbolDisplayFormat.CSharpErrorMessageFormat)),
                     new KeyValuePair<string, string>("assembly", type.ContainingAssembly.Name),
                 }.ToImmutableDictionary();
 
